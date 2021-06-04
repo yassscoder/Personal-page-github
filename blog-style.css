@@ -2,6 +2,20 @@
     margin:0;
     padding:0;
 }
+
+/*body{
+    background-color: #08302a;
+    color:white;
+}*/
+.card {
+    background-color: #b3a497;
+    padding: 20px;
+    margin-right:150px;
+    margin-left: 150px;
+    color: #ffebcd;
+    margin-bottom: 30px;
+    border-radius: 33px;
+}
 .switch{
     background-color: #08302a;
     border:none;
@@ -33,7 +47,6 @@
     position:fixed;
     top:0;
     display:flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -59,30 +72,10 @@ body.dark-mode{
     cursor: pointer;
 }*/
 
-#yas_pc{
-    margin-top:15px;
-    max-width:38%;
-    shape-rendering:crispedges;/*no parece funcionar*/
-}
 
-/*<img id="yas-mini" src="yas-mini.svg">*/
 
-#position{
-    font-size: 3em;
-    color: #514438;
-    font-weight: bold;
-}
-#position.dark-mode{
-    color:#ffebcd;
-}
-#greet{
-    font-size: 4.5em;
-    color: #514438;
-    font-weight: bold;
-}
-#greet.dark-mode{
-    color: #ffebcd;
-}
+
+
 p{
     font-size: 2.5em;
     line-height: 90px;
@@ -93,24 +86,9 @@ p{
     font-size: 70px;
 
 }
-h1{
+h1{ margin:120px;
     font-size: 6em;
-    color:white;
-}
-#wrapper{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 155px 50px 40px 50px;
-    /*margin-right: 50px;
-    margin-left:50px;
-    margin-top:170px; /*cambiar esto*/
-    justify-content: space-around;
-
-}
-#img-about{
-    display:flex;
-
+    color:#514438;
 }
 
 #about {
@@ -120,6 +98,7 @@ h1{
     line-height: 50px;
     align-items: center;
 }
+
 
 #blog{
     font-size: 0.6em;
@@ -165,7 +144,13 @@ h1{
 }
 footer{
     color:#514438;
-    margin-top:20px;
+    position:fixed;
+    width: 100%;
+    bottom:0;
+
+    display:flex;
+    justify-content: center;
+
 }
 footer.dark-mode{
     color: white;
@@ -189,8 +174,9 @@ html{
     /*background:black;
     filter: invert(1) hue-rotate(180deg);*/
 }
-
-
+.header{
+    display:flex;
+    justify-content: center;}
 /*responsive*/
 /*smartphone*/
 @media (min-width:321px) and (max-width: 767px) {
@@ -200,7 +186,6 @@ html{
     .personal{
         display:none;
         flex-direction: column;
-        margin-right: 0;
 
     }
     .personal.show{
@@ -208,8 +193,6 @@ html{
         width: 100%;
         background-color: #bde6de;
         align-items: center;
-        height: 500px;
-        margin-top:26px
     }
     #hamburger{
         display: block;
@@ -245,7 +228,11 @@ html{
         max-width:45%;
     }
 
-    }
+}
+
+
+
+
 
 
 
