@@ -30,6 +30,9 @@
     color:white;
 
 }
+#blog-wrapper{
+    margin: 155px 50px 40px 50px;
+}
 .fa-moon:after{
     content:"";
     display: block;
@@ -89,7 +92,7 @@ p{
     font-size: 70px;
 
 }
-h1{ margin:120px;
+h1{
     font-size: 3.5em;
     color:#514438;
     font-weight: 500;
@@ -179,7 +182,9 @@ html{
 }
 .header{
     display:flex;
-    justify-content: center;}
+    justify-content: center;
+    margin-bottom: 3rem;
+}
 /*responsive*/
 /*smartphone*/
 @media (min-width:321px) and (max-width: 767px) {
