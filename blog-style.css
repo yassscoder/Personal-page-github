@@ -10,10 +10,10 @@
 .card {
     background-color: #b3a497;
     padding: 20px;
-    margin-right:150px;
-    margin-left: 150px;
+    margin-right:8rem;
+    margin-left: 8rem;
     color: #ffebcd;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     border-radius: 33px;
 }
 .switch{
@@ -87,7 +87,7 @@ p{
 
 }
 h1{ margin:120px;
-    font-size: 6em;
+    font-size: 3.5em;
     color:#514438;
 }
 
@@ -144,10 +144,8 @@ h1{ margin:120px;
 }
 footer{
     color:#514438;
-    position:fixed;
+    position:absolute;
     width: 100%;
-    bottom:0;
-
     display:flex;
     justify-content: center;
 
@@ -180,8 +178,10 @@ html{
 /*responsive*/
 /*smartphone*/
 @media (min-width:321px) and (max-width: 767px) {
-    #yas_pc{
-        max-width: 90%;
+
+    .card{
+        margin-right: 2rem ;
+        margin-left: 2rem;
     }
     .personal{
         display:none;
@@ -216,17 +216,12 @@ html{
 }
 
 @media(min-width: 768px)and (max-width:1023px) {
-    #yas_pc{
-        max-width: 50%;
-    }
 
 
 }
 
 @media(min-width: 1024px){
-    #yas_pc{
-        max-width:45%;
-    }
+
 
 }
 
