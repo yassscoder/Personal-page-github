@@ -45,14 +45,13 @@
     border-radius:10px;
 }
 .menu{
-    /*font-family: 'Dancing Script', cursive;*/
-
     width: 100%;
     background-color: #87afa7;
     height: 100px;
     position:fixed;
     top:0;
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -165,6 +164,7 @@ footer.dark-mode{
     margin:25px;
     color: white;
     text-decoration:none;
+    display:inline-block;
 
 }
 #hamburger{
@@ -196,6 +196,7 @@ html{
     .personal{
         display:none;
         flex-direction: column;
+        margin-right: 0;
 
     }
     .personal.show{
